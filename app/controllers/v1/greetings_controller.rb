@@ -7,4 +7,4 @@ class V1::GreetingsController < ApplicationController
       render json: { success: false, errors: 'Oops, Something went wrong!' }, status: :unprocessable_entity
     end
   end
-end 
+end
